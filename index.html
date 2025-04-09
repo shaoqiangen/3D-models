@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>FFXIV Community Hub</title>
+    <meta name="description" content="A community website for Final Fantasy XIV players to share guides, events, and connect with other players.">
+    <meta name="keywords" content="Final Fantasy XIV, FFXIV, MMO, gaming community, FFXIV guides, FFXIV events">
+    
+    <!-- Open Graph Meta Tags -->
+    <meta property="og:title" content="FFXIV Community Hub">
+    <meta property="og:description" content="A community website for Final Fantasy XIV players to share guides, events, and connect with other players.">
+    <meta property="og:type" content="website">
+    
+    <!-- Twitter Meta Tags -->
+    <meta name="twitter:card" content="summary_large_image">
+    <meta name="twitter:title" content="FFXIV Community Hub">
+    <meta name="twitter:description" content="A community website for Final Fantasy XIV players to share guides, events, and connect with other players.">
+    
+    <!-- React and ReactDOM -->
+    <script src="https://unpkg.com/react@18/umd/react.production.min.js"></script>
+    <script src="https://unpkg.com/react-dom@18/umd/react-dom.production.min.js"></script>
+    
+    <!-- Babel -->
+    <script src="https://unpkg.com/@babel/standalone/babel.min.js"></script>
+    
+    <!-- TailwindCSS -->
+    <script src="https://cdn.tailwindcss.com"></script>
+    
+    <!-- Font Awesome -->
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css" rel="stylesheet">
+    
+    <!-- Custom CSS -->
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body class="bg-gray-900 text-white">
+    <div id="root"></div>
+    
+    <!-- Components -->
+    <script type="text/babel" src="components/Header.js"></script>
+    <script type="text/babel" src="components/Footer.js"></script>
+    <script type="text/babel" src="components/NewsCard.js"></script>
+    <script type="text/babel" src="components/GuideCard.js"></script>
+    <script type="text/babel" src="components/EventCard.js"></script>
+    <script type="text/babel" src="components/CharacterCard.js"></script>
+    <script type="text/babel" src="components/GalleryItem.js"></script>
+    
+    <!-- Pages -->
+    <script type="text/babel" src="pages/Home.js"></script>
+    <script type="text/babel" src="pages/Guides.js"></script>
+    <script type="text/babel" src="pages/Characters.js"></script>
+    <script type="text/babel" src="pages/Community.js"></script>
+    <script type="text/babel" src="pages/Events.js"></script>
+    <script type="text/babel" src="pages/Gallery.js"></script>
+    
+    <!-- Utils -->
+    <script type="text/babel" src="utils/data.js"></script>
+    
+    <!-- Main App -->
+    <script type="text/babel" src="app.js"></script>
+</body>
+</html>
